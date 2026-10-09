@@ -1,3 +1,9 @@
+# Download
+- Link para download
+https://tinyurl.com/selfroldao
+- Comando para download
+wget -O selfconfig.sh https://tinyurl.com/selfroldao
+
 # SELF Config
 
 Script desenvolvido para automatizar a configuração e atualização do ambiente **Zanthus SELF/PDV**, reduzindo procedimentos manuais durante instalação, formatação e manutenção dos equipamentos.
