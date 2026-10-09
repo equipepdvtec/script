@@ -1,7 +1,7 @@
 # Download
-- Link para download
+- Link para download:
 https://tinyurl.com/selfroldao
-- Comando para download
+- Comando para download:
 wget -O selfconfig.sh https://tinyurl.com/selfroldao
 
 # SELF Config
