@@ -589,7 +589,7 @@ if [ "$PULAR_COPIA" = false ]; then
     timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/RESTG*.CFG .
     timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/CARG*.CFG .
     timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/RCB*.CFG .
-    # timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/CliSiTef.ini .
+    timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/CliSiTef.ini .
     timeout "$TIMEOUT_SCP" sshpass -p "zanthus" scp $SSH_OPCOES -r user@"$IP_ORIGEM":/Zanthus/Zeus/pdvJava/ECF9.CFG .
 
     rm -f simula.ecf param.ecf
